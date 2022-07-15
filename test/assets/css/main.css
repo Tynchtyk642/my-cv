@@ -2551,7 +2551,6 @@ input, select, textarea {
 
 /* Icon */
 
-
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2945,45 +2944,9 @@ input, select, textarea {
 			margin-top: -0.75rem;
 		}
 
-		header.majors {
-			margin: 0 0 4rem 0;
-			text-align: center;
-		}
-
-			header.majors > :last-child {
-				margin-bottom: 0;
-			}
-
-			header.majors > p {
-				margin-top: 0;
-				text-align: center;
-			}
-
-			header.majors > .date {
-				font-size: 1rem;
-				margin: 0 0 4rem 0;
-			}
-
-				header.majors > .date:before, header.majors > .date:after {
-					content: '';
-					display: block;
-					position: absolute;
-					top: 50%;
-					width: calc(50% - 6rem);
-					border-top: solid 2px;
-				}
-
-				header.majors > .date:before {
-					left: 0;
-				}
-
-				header.majors > .date:after {
-					right: 0;
-				}
-
 		header.major {
 			margin: 0 0 4rem 0;
-			text-align: left;
+			text-align: center;
 		}
 
 			header.major > :last-child {
